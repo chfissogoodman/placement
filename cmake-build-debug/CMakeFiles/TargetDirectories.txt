@@ -1,0 +1,4 @@
+E:/placement/cmake-build-debug/CMakeFiles/placement.dir
+E:/placement/cmake-build-debug/CMakeFiles/parser.dir
+E:/placement/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/placement/cmake-build-debug/CMakeFiles/rebuild_cache.dir
