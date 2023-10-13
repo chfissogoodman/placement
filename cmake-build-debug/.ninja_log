@@ -1,0 +1,17 @@
+# ninja log v5
+1	7	1697166431746674820	CMakeFiles/memorylist_c_f.dir/Parser_for_memlist.cpp.o	596014958dcc4228
+0	178	1697166431918687354	CMakeFiles/memorylist_c_f.dir/main.cpp.o	d266de49bb9eecac
+0	178	1697168017077969992	CMakeFiles/memorylist_c_f.dir/main.cpp.o	d266de49bb9eecac
+1	230	1697168017129972574	CMakeFiles/memorylist_c_f.dir/Parser_for_memlist.cpp.o	596014958dcc4228
+1	193	1697174460565174525	CMakeFiles/memorylist_c_f.dir/main.cpp.o	d266de49bb9eecac
+1	226	1697174460597175047	CMakeFiles/memorylist_c_f.dir/Parser_for_memlist.cpp.o	596014958dcc4228
+0	218	1697174862434340138	CMakeFiles/memorylist_c_f.dir/main.cpp.o	d266de49bb9eecac
+0	230	1697174862446341542	CMakeFiles/memorylist_c_f.dir/Parser_for_memlist.cpp.o	596014958dcc4228
+230	268	1697174862486346222	memorylist_c_f	9e28e2fc9b364fca
+1	220	1697175449427690808	CMakeFiles/memorylist_c_f.dir/main.cpp.o	d266de49bb9eecac
+1	227	1697175449431691054	CMakeFiles/memorylist_c_f.dir/Parser_for_memlist.cpp.o	596014958dcc4228
+227	268	1697175449471693514	memorylist_c_f	9e28e2fc9b364fca
+0	205	1697175723054931568	CMakeFiles/memorylist_c_f.dir/main.cpp.o	d266de49bb9eecac
+205	243	1697175723090933398	memorylist_c_f	9e28e2fc9b364fca
+0	362	1697176853022167571	CMakeFiles/memorylist_c_f.dir/Parser_for_memlist.cpp.o	596014958dcc4228
+362	404	1697176853062169065	memorylist_c_f	9e28e2fc9b364fca

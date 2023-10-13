@@ -1,0 +1,3 @@
+/home/chen/CLionProjects/memorylist_c.f/cmake-build-debug/CMakeFiles/memorylist_c_f.dir
+/home/chen/CLionProjects/memorylist_c.f/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/chen/CLionProjects/memorylist_c.f/cmake-build-debug/CMakeFiles/rebuild_cache.dir
