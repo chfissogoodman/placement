@@ -20,9 +20,7 @@ public:
     void AddMemoryData(const MemoryData& memoryData){
         memoryDataList_.push_back(memoryData);
     }
-//    auto GetMemoryDataList(std::vector<MemoryData>&memoryDataList){
-//    return memoryDataList_;
-//}
+
 
 private:
     std::vector<MemoryData> memoryDataList_;

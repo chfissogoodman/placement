@@ -7,10 +7,6 @@
 #include <unordered_map>
 #include <iostream>
 
-#include "Parser_for_memlist.h"
-#include <fstream>
-#include <sstream>
-#include <iostream>
 
 bool Parser::ParseMemoryData(const std::string &inputFileName, std::vector<MemoryData> &memoryDataList) {
 
@@ -47,35 +43,13 @@ bool Parser::ParseMemoryData(const std::string &inputFileName, std::vector<Memor
             } else {
                 currentMemoryData.dataPaths.push_back(line);
             }
-
-
-
-
-
-//        if (line.empty()) {
-//            // 忽略空行
-//            continue;
-//        }
-//
-//        if (line.back() == ':') {
-//            // 识别到新的内存类型
-//            if (!currentMemoryData.memoryType.empty()) {
-//                memoryDataList.push_back(currentMemoryData);
-//            }
-//            currentMemoryData.memoryType = line;
-//        } else {
-//            // 将路径添加到当前内存类型
-//            currentMemoryData.dataPaths.push_back(line);
-//        }
         }
-
-//    // 添加最后一个内存类型
-//    if (!currentMemoryData.memoryType.empty()) {
-//        memoryDataList.push_back(currentMemoryData);
     }
-
     inputFile.close();
-    for (const auto& entry : memoryDataMap) {
+
+
+    /*这段代码是一个循环，它遍历了memoryDataMap中的所有键-值对（entry是迭代器，代表了键值对），并将每个键值对的second部分，也就是MemoryData对象，添加到memoryDataList中*/
+    for (const auto &entry: memoryDataMap) {
         memoryDataList.push_back(entry.second);
     }
     return true;
